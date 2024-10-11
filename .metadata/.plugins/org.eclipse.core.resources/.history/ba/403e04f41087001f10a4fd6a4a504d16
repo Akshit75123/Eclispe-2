@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Adding more aliens</title>
+</head>
+<body>
+	<form action = "/addAlien">
+		Enter Alien name : <input type="text" name="aname"> 
+		Enter Tech Skill : <input type="text" name="tech"> 
+		<input type = "submit"  name = "submit">
+	</form>
+</body>
+</html>

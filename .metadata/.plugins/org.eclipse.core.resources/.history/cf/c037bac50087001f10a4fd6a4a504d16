@@ -1,0 +1,6 @@
+/*for fetching the data from jdbc*/
+package com.telusko.web.dao;
+
+public class AlienDao {
+	
+}

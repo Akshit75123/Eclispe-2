@@ -1,0 +1,6 @@
+127.0.0.1 - - [11/Oct/2024:10:10:42 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Oct/2024:10:10:46 +0530] "GET /ServletJSPDemo/ HTTP/1.1" 200 354
+0:0:0:0:0:0:0:1 - - [11/Oct/2024:10:10:47 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [11/Oct/2024:10:10:51 +0530] "GET /ServletJSPDemo/getAlien?aid=443 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [11/Oct/2024:10:10:51 +0530] "GET /ServletJSPDemo/addAlien.jsp HTTP/1.1" 200 345
+0:0:0:0:0:0:0:1 - - [11/Oct/2024:10:10:54 +0530] "GET /ServletJSPDemo/add?aname=gdf&tech=dfgd&submit=Submit HTTP/1.1" 200 59

@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Jar
+Bundle-SymbolicName: jar
+Bundle-Version: 1.0.0
+Automatic-Module-Name: jar
+Bundle-RequiredExecutionEnvironment: JavaSE-21

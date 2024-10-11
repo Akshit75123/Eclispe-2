@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8" isELIgnored="true"%>
+ <%@ taglib prefix = "c" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Display</title>
+</head>
+<body>
+	<%-- <%
+		String now = request.getAttribute("label").toString();
+		out.println(now);
+	%> --%>
+	
+	
+		${label}
+
+	
+</body>
+</html>

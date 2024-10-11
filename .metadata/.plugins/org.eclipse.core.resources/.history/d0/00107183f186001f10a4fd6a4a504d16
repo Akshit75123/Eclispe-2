@@ -1,0 +1,26 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class LoginDao {
+	public boolean check(String uname, String password) {
+		//using jdbc for fetching database
+		String url = "jdbc:mysql://localhost:3306/new";
+		String username = "root";
+		String password = "akshit";
+		
+		try {
+			/* load the class */
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			//Connection object
+			Connection con = DriverManager.getConnection(url,username,password);
+			
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+		return false;
+	}
+}

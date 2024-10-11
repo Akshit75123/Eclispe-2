@@ -1,0 +1,16 @@
+package dao;
+
+public class LoginDao {
+	public boolean check(String uname, String password) {
+		//using jdbc for fetching database
+		/* load the class */
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+		return false;
+	}
+}

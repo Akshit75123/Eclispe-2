@@ -1,0 +1,50 @@
+package springmvc.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+//content of video - 5(Spring MVC configuration i.e. video - 1)
+@Controller
+public class HomeController {
+	// name of the view
+	
+	//video - 5
+	//@RequestMapping("/home")
+	//public String home(Model model) {
+	//	System.out.println("this is home url");
+	//	return "index";
+	
+	@RequestMapping("/about")
+	public String about() {
+		System.out.println("this is about page");
+		return "about";
+	}
+	
+	//}
+	/* video - 6 */
+	@RequestMapping("/home")
+	public String home(Model model) { // model is part of video - 6
+		System.out.println("this is home url");
+		model.addAttribute("name", "Akshit Panwar");
+		model.addAttribute("id", 1212);
+		List<String> friends = new ArrayList<>();
+		friends.add("Vandana");
+		friends.add("Roshni");
+		friends.add("abc");
+		model.addAttribute("f", friends);
+		return "index";
+	}
+
+	//video - 7 -- ModelAndView
+	@RequestMapping("/help")
+	public ModelAndView help() {
+		System.out.println("help");
+		ModelAndView mv = new ModelAndView();
+		return mv;
+	}
+}

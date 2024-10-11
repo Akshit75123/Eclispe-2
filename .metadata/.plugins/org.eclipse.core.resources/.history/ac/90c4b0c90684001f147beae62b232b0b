@@ -1,0 +1,9 @@
+package com.telusko;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet("/add")
+public class AddServlet extends HttpServlet  {
+	
+}

@@ -1,0 +1,10 @@
+/*for fetching the data from jdbc*/
+package com.telusko.web.dao;
+
+import com.telusko.web.model.Alien;
+
+public class AlienDao {
+	public Alien getAlien(int aid) {
+		
+	}
+}

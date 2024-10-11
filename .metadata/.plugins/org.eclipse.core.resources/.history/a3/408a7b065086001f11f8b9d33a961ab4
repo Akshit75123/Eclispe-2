@@ -1,0 +1,6 @@
+package com.telusko;
+
+public class Student {
+	int rollno;
+	String name;
+}

@@ -1,0 +1,6 @@
+package com.telusko.web;
+
+@WebServlet("/addAlien")
+public class AddAlien {
+
+}
